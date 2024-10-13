@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#050C9C, #3572EF, #3ABEF9, #A7E6FF);
+    /*width: 10px;
+    height: 710px;*/
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+nav {
+    background-color: #4487ce;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    /*background-color: #050C9C;*/
+    padding-top: 15%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    max-width: 60%;
+    /*justify-content: center;*/
+    padding-left: 5%;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+header p {
+    font-size: 1.2em;
+    color: gainsboro;
+}
+
+.header-image {
+    padding-right: 25%;
+}
+
+.header-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit: scale-down;
+    
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: midnightblue;
+}
+
+.pass {
+    /*background-color: #3572EF;*/
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+#projects .project {
+    /*background-color: rgb(20, 164, 220);*/
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0056b3;
+    color: white;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education li {
+    padding: 5px 0;
+    font-size: 1.1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
